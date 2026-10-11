@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-shop-006"
+  short_description: "Research-first fabric and material showcase visuals."
+  default_prompt: "Use $xxd-shop-006; require a fabric or garment photo, research every unfamiliar fibre, yarn, structure, finish or branded technology from reliable sources before generating, classify each term and separate material properties, process effects and unproven marketing claims in facts.md with sources, pass only verified conclusions plus the core value source to the model, keep the bundled original brief as the sole aesthetic authority, label only verified facts, and deliver fresh PNGs in one flat task directory."
+
+policy:
+  allow_implicit_invocation: true
