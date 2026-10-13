@@ -1,0 +1,162 @@
+{
+ "skill": "006",
+ "special": {
+  "zh": "换语言",
+  "en": "In English"
+ },
+ "set": null,
+ "items": [
+  {
+   "id": "s01",
+   "section": "size",
+   "ratio": "1:1",
+   "input": "fabric-linen",
+   "use": {
+    "zh": "详情页面料模块",
+    "en": "Detail-page fabric module"
+   },
+   "product": {
+    "zh": "南枝 水洗亚麻衬衫面料",
+    "en": "NANZHI washed-linen shirting"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": true,
+   "file": "s01-size-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s02",
+   "section": "size",
+   "ratio": "3:4",
+   "input": "fabric-linen",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "南枝 水洗亚麻衬衫面料",
+    "en": "NANZHI washed-linen shirting"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s02-size-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s03",
+   "section": "size",
+   "ratio": "9:16",
+   "input": "fabric-linen",
+   "use": {
+    "zh": "竖屏",
+    "en": "Vertical screen"
+   },
+   "product": {
+    "zh": "南枝 水洗亚麻衬衫面料",
+    "en": "NANZHI washed-linen shirting"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s03-size-9x16-940x1672.png",
+   "pixels": "940x1672"
+  },
+  {
+   "id": "s04",
+   "section": "size",
+   "ratio": "16:9",
+   "input": "fabric-linen",
+   "use": {
+    "zh": "横幅",
+    "en": "Banner"
+   },
+   "product": {
+    "zh": "南枝 水洗亚麻衬衫面料",
+    "en": "NANZHI washed-linen shirting"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s04-size-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s05",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "knit-cardigan",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "南枝 叶纹手织开衫",
+    "en": "NANZHI leaf-lace hand-knit cardigan"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s05-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s06",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "knit-fairisle",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "南枝 费尔岛提花毛衣",
+    "en": "NANZHI Fair Isle sweater"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s06-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "s07",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "fabric-chambray",
+   "use": {
+    "zh": "详情页面料模块",
+    "en": "Detail-page fabric module"
+   },
+   "product": {
+    "zh": "南枝 青年布衬衫面料",
+    "en": "NANZHI chambray shirting"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s07-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s08",
+   "section": "special",
+   "ratio": "3:4",
+   "input": "fabric-linen",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "南枝 水洗亚麻衬衫面料",
+    "en": "NANZHI washed-linen shirting"
+   },
+   "text": "plan en-US",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s08-special-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  }
+ ]
+}

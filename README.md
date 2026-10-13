@@ -10,9 +10,34 @@
 
 > 原始提示词：[简体中文原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## 样张
 
-暂无样张。下文命令只是用法示例，不是视觉证据。
+<p align="center"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" width="720" alt="详情页面料模块"></a><br><sub>详情页面料模块 · 1:1 · 1254x1254<br>南枝 水洗亚麻衬衫面料 · <a href="assets/examples/sources/fabric-linen.jpg">原图</a> · 文案方案（中文）</sub></p>
+
+### 一个商品，适配每个位置
+
+同一商品、同一份原稿，每个比例都重新构图，不是裁切。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="详情页面料模块"></a><br><sub>详情页面料模块 · 1:1 · 1254x1254<br>南枝 水洗亚麻衬衫面料 · <a href="assets/examples/sources/fabric-linen.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>南枝 水洗亚麻衬衫面料 · <a href="assets/examples/sources/fabric-linen.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-940x1672.png"><img src="assets/examples/preview/s03-size-9x16-940x1672.webp" height="200" alt="竖屏"></a><br><sub>竖屏 · 9:16 · 940x1672<br>南枝 水洗亚麻衬衫面料 · <a href="assets/examples/sources/fabric-linen.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="横幅"></a><br><sub>横幅 · 16:9 · 1672x941<br>南枝 水洗亚麻衬衫面料 · <a href="assets/examples/sources/fabric-linen.jpg">原图</a> · 文案方案（中文）</sub></td></tr>
+</table>
+
+### 换一个品类也成立
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>南枝 叶纹手织开衫 · <a href="assets/examples/sources/knit-cardigan.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-4x5-1122x1402.png"><img src="assets/examples/preview/s06-category-4x5-1122x1402.webp" height="220" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>南枝 费尔岛提花毛衣 · <a href="assets/examples/sources/knit-fairisle.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-1x1-1254x1254.png"><img src="assets/examples/preview/s07-category-1x1-1254x1254.webp" height="220" alt="详情页面料模块"></a><br><sub>详情页面料模块 · 1:1 · 1254x1254<br>南枝 青年布衬衫面料 · <a href="assets/examples/sources/fabric-chambray.jpg">原图</a> · 文案方案（中文）</sub></td></tr>
+</table>
+
+### 换语言
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-special-3x4-1086x1448.png"><img src="assets/examples/preview/s08-special-3x4-1086x1448.webp" height="220" alt="详情页"></a><br><sub>详情页 · 3:4 · 1086x1448<br>南枝 水洗亚麻衬衫面料 · <a href="assets/examples/sources/fabric-linen.jpg">原图</a> · 文案方案（英文）</sub></td></tr>
+</table>
+
+<sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>
+
+<!-- xxd-samples:end -->
 
 ## 它解决什么
 
