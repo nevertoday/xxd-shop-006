@@ -10,7 +10,7 @@
    "id": "c01",
    "section": "category",
    "ratio": "3:4",
-   "input": "fabric-silk",
+   "input": "fabric-silk+logo-nanzhi",
    "use": {
     "zh": "详情页面料模块",
     "en": "Detail-page fabric module"
@@ -33,7 +33,7 @@
    "id": "c02",
    "section": "category",
    "ratio": "1:1",
-   "input": "fabric-denim",
+   "input": "fabric-denim+logo-nanzhi",
    "use": {
     "zh": "详情页面料模块",
     "en": "Detail-page fabric module"
@@ -56,7 +56,7 @@
    "id": "c03",
    "section": "category",
    "ratio": "4:5",
-   "input": "cotton-tees",
+   "input": "cotton-tees+logo-nanzhi",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -79,7 +79,7 @@
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
-   "input": "fabric-linen",
+   "input": "fabric-linen+logo-nanzhi",
    "use": {
     "zh": "详情页面料模块",
     "en": "Detail-page fabric module"
@@ -102,7 +102,7 @@
    "id": "s02",
    "section": "size",
    "ratio": "3:4",
-   "input": "fabric-linen",
+   "input": "fabric-linen+logo-nanzhi",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -125,7 +125,7 @@
    "id": "s03",
    "section": "size",
    "ratio": "9:16",
-   "input": "fabric-linen",
+   "input": "fabric-linen+logo-nanzhi",
    "use": {
     "zh": "竖屏",
     "en": "Vertical screen"
@@ -141,14 +141,14 @@
     "en": "Apparel"
    },
    "hero": false,
-   "file": "s03-size-9x16-940x1672.png",
-   "pixels": "940x1672"
+   "file": "s03-size-9x16-941x1672.png",
+   "pixels": "941x1672"
   },
   {
    "id": "s04",
    "section": "size",
    "ratio": "16:9",
-   "input": "fabric-linen",
+   "input": "fabric-linen+logo-nanzhi",
    "use": {
     "zh": "横幅",
     "en": "Banner"
@@ -171,7 +171,7 @@
    "id": "s05",
    "section": "category",
    "ratio": "3:4",
-   "input": "knit-cardigan",
+   "input": "knit-cardigan+logo-nanzhi",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
@@ -194,7 +194,7 @@
    "id": "s06",
    "section": "category",
    "ratio": "4:5",
-   "input": "knit-fairisle",
+   "input": "knit-fairisle+logo-nanzhi",
    "use": {
     "zh": "社媒",
     "en": "Social post"
@@ -217,7 +217,7 @@
    "id": "s07",
    "section": "category",
    "ratio": "1:1",
-   "input": "fabric-chambray",
+   "input": "fabric-chambray+logo-nanzhi",
    "use": {
     "zh": "详情页面料模块",
     "en": "Detail-page fabric module"
@@ -240,7 +240,7 @@
    "id": "s08",
    "section": "special",
    "ratio": "3:4",
-   "input": "fabric-linen",
+   "input": "fabric-linen+logo-nanzhi",
    "use": {
     "zh": "详情页",
     "en": "Detail page"
