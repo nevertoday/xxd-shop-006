@@ -7,6 +7,75 @@
  "set": null,
  "items": [
   {
+   "id": "c01",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "fabric-silk",
+   "use": {
+    "zh": "详情页面料模块",
+    "en": "Detail-page fabric module"
+   },
+   "product": {
+    "zh": "南枝 桑蚕丝枕套面料",
+    "en": "NANZHI mulberry-silk pillowcase fabric"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
+   "hero": false,
+   "file": "c01-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c02",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "fabric-denim",
+   "use": {
+    "zh": "详情页面料模块",
+    "en": "Detail-page fabric module"
+   },
+   "product": {
+    "zh": "南枝 原色牛仔面料",
+    "en": "NANZHI raw denim"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
+   "hero": false,
+   "file": "c02-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c03",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "cotton-tees",
+   "use": {
+    "zh": "详情页",
+    "en": "Detail page"
+   },
+   "product": {
+    "zh": "南枝 纯棉 T 恤",
+    "en": "NANZHI cotton T-shirt"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
+   "hero": false,
+   "file": "c03-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
@@ -21,6 +90,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": true,
    "file": "s01-size-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -40,6 +113,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s02-size-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -59,6 +136,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s03-size-9x16-940x1672.png",
    "pixels": "940x1672"
@@ -78,6 +159,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s04-size-16x9-1672x941.png",
    "pixels": "1672x941"
@@ -97,6 +182,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s05-category-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -116,6 +205,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s06-category-4x5-1122x1402.png",
    "pixels": "1122x1402"
@@ -135,6 +228,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s07-category-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -154,6 +251,10 @@
    },
    "text": "plan en-US",
    "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
    "hero": false,
    "file": "s08-special-3x4-1086x1448.png",
    "pixels": "1086x1448"
