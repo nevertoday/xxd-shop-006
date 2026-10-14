@@ -76,14 +76,14 @@ ln -s "$(pwd)/xxd-shop-006" ~/.claude/skills/xxd-shop-006
 ```
 
 ```text
-# 带品牌技术名的冲锋衣面料：先查证，再出图
-/xxd-shop-006 ./冲锋衣面料.jpg --product "三层压胶冲锋衣，面料：XX-Tex 3L，表层 40D 尼龙，DWR 防泼水" --size 3:4 --text prompt --locale zh-CN
+# 带品牌技术名的冲锋衣面料：先查证，再起草标注给你确认，最后出图（默认）
+/xxd-shop-006 ./冲锋衣面料.jpg --product "三层压胶冲锋衣，面料：XX-Tex 3L，表层 40D 尼龙，DWR 防泼水" --size 3:4 --locale zh-CN
 
 # 羊绒针织，只要材质，不要字
 /xxd-shop-006 ./羊绒衫细节.jpg --product "100% 山羊绒，12 针粗针平针" --size 1:1 --text none
 
 # 已有厂商技术单
-/xxd-shop-006 ./面料.jpg --product "凉感针织" --facts "厂商技术单：接触凉感 Qmax 0.21 W/cm²（GB/T 35263）" --size 3:4 --text prompt --locale zh-CN
+/xxd-shop-006 ./面料.jpg --product "凉感针织" --facts "厂商技术单：接触凉感 Qmax 0.21 W/cm²（GB/T 35263）" --size 3:4 --locale zh-CN
 ```
 
 常用参数：`--product` 面料说明 · `--facts` 你已有的数据 · `--size` · `--text prompt / exact / plan / none` · `--locale`。完整参数见[家族运行合同](references/shop-runtime.md)。
@@ -92,6 +92,7 @@ ln -s "$(pwd)/xxd-shop-006" ~/.claude/skills/xxd-shop-006
 
 - 原始提示词逐字保存，是唯一的审美权威。
 - 画面上的每一条标注都能在 `facts.md` 或你的资料里找到出处。
+- 没给文案时，先起草一份标注方案给你确认，每句注明出处（`facts.md` 或你的资料），你确认或改过后才出图；想让模型直接写，加 `--text prompt`。
 - 宿主没有检索工具时会告诉你，只用你提供的和图上看得见的信息，未证实的词不上画面。
 
 <!-- xxd-shop-tail -->

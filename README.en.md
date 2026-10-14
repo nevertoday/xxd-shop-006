@@ -62,7 +62,7 @@ ln -s "$(pwd)/xxd-shop-006" ~/.claude/skills/xxd-shop-006
 ```
 
 ```text
-/xxd-shop-006 ./shell-jacket-fabric.jpg --product "3-layer laminated shell, XX-Tex 3L, 40D nylon face, DWR" --size 3:4 --text prompt --locale en-US
+/xxd-shop-006 ./shell-jacket-fabric.jpg --product "3-layer laminated shell, XX-Tex 3L, 40D nylon face, DWR" --size 3:4 --locale en-US
 /xxd-shop-006 ./cashmere-detail.jpg --product "100% cashmere, 12-gauge jersey" --size 1:1 --text none
 ```
 
@@ -72,6 +72,7 @@ Key flags: `--product` (fabric spec), `--facts` (your data), `--size`, `--text p
 
 - A fabric or garment photo is required; colour, pattern, weave and texture scale follow it.
 - Every label on the image traces to `facts.md` or your own documents; your private documents are never sent to external search.
+- Without your copy, the Skill first drafts the labels, after research, for you to confirm, each line tagged with its source (`facts.md` or your documents); nothing is generated until you confirm or edit it. Add `--text prompt` to let the model write it instead.
 - Without a search tool, the Skill says so and keeps unverified terms off the image.
 
 <!-- xxd-shop-tail -->

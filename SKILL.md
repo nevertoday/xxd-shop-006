@@ -1,6 +1,6 @@
 ---
 name: xxd-shop-006
-description: "Create XXD Shop 006 fabric and material showcase visuals (服装面料材质展示) as finished PNGs from garment or fabric photos plus their written specs, treating the bundled original brief as the sole aesthetic authority: first identify and research every unfamiliar fibre, yarn, weave, knit, laminate, finish or branded technology from reliable sources, separate material properties from process effects and marketing claims, then let the model choose macro weave, folds, drape, cross-section, water beading or raw-material cues to show what the cloth truly is, with minimal labels only for verified facts. Supports multiple ratios or exact sizes, several compositions per size, prompt-generated, user-exact or user-plan labels, or none. Use when the user invokes xxd-shop-006 or asks for 面料图、材质展示、面料卖点图、微距织纹、面料剖面、科技面料说明图."
+description: "Create XXD Shop 006 fabric and material showcase visuals (服装面料材质展示) as finished PNGs from garment or fabric photos plus their written specs, treating the bundled original brief as the sole aesthetic authority: first identify and research every unfamiliar fibre, yarn, weave, knit, laminate, finish or branded technology from reliable sources, separate material properties from process effects and marketing claims, then let the model choose macro weave, folds, drape, cross-section, water beading or raw-material cues to show what the cloth truly is, with minimal labels only for verified facts. Supports multiple ratios or exact sizes, several compositions per size, prompt-generated, user-exact or user-plan labels, or none. Without user copy, it first drafts labels from the verified facts for the user to confirm before generating. Use when the user invokes xxd-shop-006 or asks for 面料图、材质展示、面料卖点图、微距织纹、面料剖面、科技面料说明图."
 ---
 
 # XXD Shop 006｜面料材质展示
@@ -36,6 +36,8 @@ description: "Create XXD Shop 006 fabric and material showcase visuals (服装�
 当前宿主没有检索工具时，告诉用户；只用用户提供的资料和图上可见的信息，未核实的术语标为“未证实”，不进入画面。
 
 **标注只写已核实的内容。** `--text prompt` 时，画面上的每一条标注都必须能在 `facts.md` 或用户资料里找到；`--text none` 是纯材质图；`--text plan` 适合用户已有一段卖点文案的情况。
+
+**文字默认：先起草标注方案。** 本编号启用家族的“起草文案方案”。样张里模型自己写标注时，反复把面料功能写成没有出处的说法，所以用户没给文案、也没选文字方式时，Agent 在查证完成后起草标注：按原稿“极简专业信息图”的要求，每条是一个短标签，只取 `facts.md` 里结论为“材料性质”或“工艺效果”的条目和用户资料；“宣传卖点（未证实）”不进入草稿。条目多于画面放得下的几条时，按“核心价值来源”那一两项挑选，其余告诉用户。用户确认后按 `--text plan` 出图；用户明确要模型按原稿生成，或选不要文字时照做。
 
 **追加验收：** 颜色、花纹、织法和纹理尺度与原图一致；没有把普通面料画成另一种更高级的材料；液滴、剖面、层厚符合真实材料；标注没有覆盖关键纹理；没有把未证实的宣传卖点画成功能演示。
 
